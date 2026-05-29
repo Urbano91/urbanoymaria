@@ -347,8 +347,11 @@ body{
   color: rgba(0,0,0,.70);
   font-family:"Parisienne", cursive;
 }
-.page[data-page="agradecimiento"] .thanksIban{
-  margin-top:6px;
+.page[data-page="agradecimiento"] .thanksIban {
+  margin-top: 6px;
+  font-family: "Times New Roman", Times, serif !important;
+  font-style: normal !important;
+  font-weight: 400;
   font-size: clamp(16px, 4vw, 20px);
   letter-spacing: 1.4px;
   color: rgba(0,0,0,.60);
