@@ -537,3 +537,22 @@ body{
   margin-left: 6px;
 }
 
+.page[data-page="autobus"] .busRouteLabel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 8px;
+  padding: 4px 18px;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(10px, 2.6vw, 12px);
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+
+  color: rgba(0, 0, 0, 0.48);
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+}
+
